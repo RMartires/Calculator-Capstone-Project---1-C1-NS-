@@ -1,16 +1,47 @@
 body{
     display: flex;
     flex-direction: column;
+    height: 470px;
+    width:320px;
+    border-style: solid;
+}
+
+#fullscreen{
+    flex:1 1 33%;
+    font-size: 35px;
+}
+#screen{
+    text-align: right;
+    margin-top: 15%;
+    margin-bottom: 0%;
 }
 
 #keypad{
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
+    flex:1 1 66%;
+}
+
+
+#leftbuts,#rightbuts{
+    display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
 }
 
-#keypad > button{
-    flex-basis: 20%;
-    height: 2.5cm;
-    margin: 0.5cm;
+#leftbuts> button{
+    flex:1 1 30%;
+    font-size: 25px;
+    background-color:#0d0d0d;
+    color:white;
+    border:none;
+    
+}
+#rightbuts> button{
+    flex:1 1 100%;
+    font-size: 25px;
+    background-color:#333333;
+    color:white;
+    border:none;
 }
