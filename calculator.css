@@ -8,12 +8,18 @@ body{
 
 #fullscreen{
     flex:1 1 33%;
-    font-size: 35px;
 }
 #screen{
     text-align: right;
     margin-top: 15%;
     margin-bottom: 0%;
+    font-size: 35px;
+}
+#smallsc{
+    text-align: right;
+    font-size: 25px;
+    margin-top: 5%;
+    color: lightslategray;
 }
 
 #keypad{
