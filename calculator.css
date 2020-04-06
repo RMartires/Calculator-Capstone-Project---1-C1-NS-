@@ -7,10 +7,11 @@ body{
     background-color: teal;
     margin: 0%;
     padding: 0%;
+    box-sizing: border-box;
 }
 
 #fullscreen{
-    /* flex:1 1 33%; */
+    flex:1 1 33%; 
     background-color:wheat;
 }
 #screen{
@@ -76,12 +77,25 @@ body{
     scale: 100%;
 }
     
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 550px) {
     body{
         display: flex;
         flex-direction: column;
         height: 100vh;
         width:66vw;
+        border-style: solid;
+        background-color: teal;
+        margin: 0%;
+        padding: 0%;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    body{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        width:50vw;
         border-style: solid;
         background-color: teal;
         margin: 0%;
