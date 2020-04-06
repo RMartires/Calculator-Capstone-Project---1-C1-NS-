@@ -21,10 +21,10 @@ for (let i = 0; i < allbuttons.length; i++) {
     buttons[i].innerText = allbuttons[i];
     buttons[i].id = `${allbuttons[i]}key`;
     if ((i >= 0 && i <= 10) || (i == 16)) {
-        buttons[i].className = `leftbuts`;
+        buttons[i].className = `leftbut`;
         keypadleft.appendChild(buttons[i]);
     } else {
-        buttons[i].className = `rightbuts`;
+        buttons[i].className = `rightbut`;
         keypadright.appendChild(buttons[i]);
     }
 
