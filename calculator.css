@@ -76,29 +76,4 @@ body{
 .leftbut:active, .rightbut:active {
     scale: 100%;
 }
-    
-@media only screen and (min-width: 550px) {
-    body{
-        display: flex;
-        flex-direction: column;
-        height: 100vh;
-        width:66vw;
-        border-style: solid;
-        background-color: teal;
-        margin: 0%;
-        padding: 0%;
-    }
-}
 
-@media only screen and (min-width: 800px) {
-    body{
-        display: flex;
-        flex-direction: column;
-        height: 100vh;
-        width:50vw;
-        border-style: solid;
-        background-color: teal;
-        margin: 0%;
-        padding: 0%;
-    }
-}
