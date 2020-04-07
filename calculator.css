@@ -11,19 +11,25 @@ body{
 }
 
 #fullscreen{
-    flex:1 1 33%; 
+    height: 30%;
     background-color:wheat;
+    box-sizing: border-box;
 }
 #screen{
+    box-sizing: border-box;
+    height: 60%;
     text-align: right;
-    margin-top: 15%;
-    margin-bottom: 0%;
+    padding-top: 5%;
+    margin: 0%;
     font-size: 35px;
 }
 #smallsc{
+    box-sizing: border-box;
+    height: 40%;
     text-align: right;
+    padding-top: 2%;
+    bottom: 1%;
     font-size: 25px;
-    margin-top: 5%;
     color: lightslategray;
 }
 
@@ -31,7 +37,7 @@ body{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    flex:1 1 66%;
+    height: 70%;
 }
 
 
